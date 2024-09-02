@@ -1,0 +1,15 @@
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/bin/Debug/net8.0/helloworld
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/bin/Debug/net8.0/helloworld.deps.json
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/bin/Debug/net8.0/helloworld.runtimeconfig.json
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/bin/Debug/net8.0/helloworld.dll
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/bin/Debug/net8.0/helloworld.pdb
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/obj/Debug/net8.0/helloworld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/obj/Debug/net8.0/helloworld.AssemblyInfoInputs.cache
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/obj/Debug/net8.0/helloworld.AssemblyInfo.cs
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/obj/Debug/net8.0/helloworld.csproj.CoreCompileInputs.cache
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/obj/Debug/net8.0/helloworld.sourcelink.json
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/obj/Debug/net8.0/helloworld.dll
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/obj/Debug/net8.0/refint/helloworld.dll
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/obj/Debug/net8.0/helloworld.pdb
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/obj/Debug/net8.0/helloworld.genruntimeconfig.cache
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week1/helloworld/obj/Debug/net8.0/ref/helloworld.dll
