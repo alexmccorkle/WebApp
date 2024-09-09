@@ -22,8 +22,28 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9pbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/Views/Item/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/Views/Item/Grid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbS9HcmlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/Views/Item/Table.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbS9UYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/Views/Shared/_Carousel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19DYXJvdXNlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/Views/Shared/_ItemCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19JdGVtQ2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/Views/Shared/_ItemTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19JdGVtVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/Views/_ViewImports.cshtml]

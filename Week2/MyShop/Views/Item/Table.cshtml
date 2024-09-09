@@ -1,47 +1,6 @@
-@model IEnumerable<MyShop.Models.Item>
+@model ItemsViewModel
 
-<div class="container">
-  @* Razor syntax used to embed server-side code in the view *@
-  <h1>@ViewBag.CurrentViewName</h1>
-  <table class='table table-striped'>
-    <tr>
-      <th>ID</th>
-      <th>Name</th>
-      <th>Price</th>
-      <th>Description</th>
-    </tr>
-    @* This is a razor for loop through and fills table with item properties *@
-    @foreach (var item in Model)
-    {
-      <tr>
-        <td>@item.ItemId</td>
-        <td>@item.Name</td>
-        <td>@item.Price.ToString("0.00 NOK")</td>
-      </tr>
-    }
-  </table>
-</div>
+<h1>List of Shop Items (@Model.CurrentViewName View)</h1>
+<a href="/Item/Grid">Grid View</a>
 
-
-@* Razor view is a file in ASP.NET apps that uses Razor syntax to dynamically create HTML content.
-It integrates C# code with HTML markup to create dynamic web pages.
-
-File extension: .cshtml
-Syntax: @[Razor code here]
-
-Razor code blocks:
-- @: Inline code
-- @{}: Code block
-- @if, @for, @foreach, @while: Control structures
-- @model: Declares the model type for the view
-- @RenderBody(): Renders the body of a layout page
-- @RenderSection(): Renders a section defined in a layout page
-- @section: Defines a section in a content page
-- @helper: Defines a reusable helper function
-- @functions: Defines reusable functions
-- @Html: Renders HTML content
-etc.
-
-Basically, Razor is a syntax for embedding C# code in HTML markup so that the C# and HTML works
-in harmony to create dynamic web pages.
-*@
+<partial name="_ItemTable" model="Model.Items" />
