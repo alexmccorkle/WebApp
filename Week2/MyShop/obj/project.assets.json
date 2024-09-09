@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/MyShop.csproj",
+      "projectUniqueName": "/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week_2+3/MyShop/MyShop.csproj",
       "projectName": "MyShop",
-      "projectPath": "/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/MyShop.csproj",
+      "projectPath": "/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week_2+3/MyShop/MyShop.csproj",
       "packagesPath": "/Users/alexmccorkle/.nuget/packages/",
-      "outputPath": "/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/obj/",
+      "outputPath": "/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week_2+3/MyShop/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alexmccorkle/.nuget/NuGet/NuGet.Config"
