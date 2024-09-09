@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+			{
+					"label": "build",
+					"command": "dotnet",
+					"type": "process",
+					"args": [
+							"build",
+							"/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/MyShop.csproj"
+					],
+					"group": {
+							"kind": "build",
+							"isDefault": true
+					},
+					"problemMatcher": "$msCompile"
+			}
+	]
+}

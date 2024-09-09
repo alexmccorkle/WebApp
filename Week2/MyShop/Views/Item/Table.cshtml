@@ -1,43 +1,27 @@
 @model IEnumerable<MyShop.Models.Item>
 
-
-<!DOCTYPE html>
-
-<html>
-
-<head>
-  <meta name="viewport" content="width=device-width" />
-  @* Bootstrap! *@
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-  <title>My Shop</title>
-
-</head>
-
-<body>
-  <div class="container">
-    @* Razor syntax used to embed server-side code in the view *@
-    <h1>@ViewBag.CurrentViewName</h1>
-    <table class='table table-striped'>
+<div class="container">
+  @* Razor syntax used to embed server-side code in the view *@
+  <h1>@ViewBag.CurrentViewName</h1>
+  <table class='table table-striped'>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Description</th>
+    </tr>
+    @* This is a razor for loop through and fills table with item properties *@
+    @foreach (var item in Model)
+    {
       <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Price</th>
-        <th>Description</th>
+        <td>@item.ItemId</td>
+        <td>@item.Name</td>
+        <td>@item.Price.ToString("0.00 NOK")</td>
       </tr>
-      @* This is a razor for loop through and fills table with item properties *@
-      @foreach (var item in Model)
-      {
-        <tr>
-          <td>@item.ItemId</td>
-          <td>@item.Name</td>
-          <td>@item.Price.ToString("0.00 NOK")</td>
-        </tr>
-      }
-    </table>
-  </div>
-</body>
+    }
+  </table>
+</div>
 
-</html>
 
 @* Razor view is a file in ASP.NET apps that uses Razor syntax to dynamically create HTML content.
 It integrates C# code with HTML markup to create dynamic web pages.

@@ -18,6 +18,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/Views/Home/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/Views/Item/Table.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbS9UYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-axnuj3c1xz

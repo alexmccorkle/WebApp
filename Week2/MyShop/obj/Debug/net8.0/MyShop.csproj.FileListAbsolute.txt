@@ -26,3 +26,8 @@
 /Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/obj/Debug/net8.0/MyShop.pdb
 /Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/obj/Debug/net8.0/MyShop.genruntimeconfig.cache
 /Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/obj/Debug/net8.0/ref/MyShop.dll
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/bin/Debug/net8.0/MyShop.staticwebassets.runtime.json
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/obj/Debug/net8.0/scopedcss/projectbundle/MyShop.bundle.scp.css
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/bin/Debug/net8.0/package-lock.json
+/Users/alexmccorkle/Documents/IT/Year_3/WebApp/Week2/MyShop/bin/Debug/net8.0/package.json
