@@ -22,6 +22,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9pbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/Views/Item/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/Views/Item/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/Views/Item/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbS9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/Views/Item/Table.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbS9UYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/Views/Item/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbS9VcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/Views/Shared/_Carousel.cshtml]

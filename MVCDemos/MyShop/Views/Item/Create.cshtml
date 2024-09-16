@@ -1,0 +1,33 @@
+@model Item
+
+<h2>Create New Item</h2>
+
+<form asp-action="Create">
+  @* Name *@
+  <div class="form-group">
+    <label asp-for="Name"></label><span class="text-danger">*</span>
+    <input asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+  </div>
+  @* Price *@
+  <div class="form-group">
+    <label asp-for="Price"></label><span class="text-danger">*</span>
+    <input asp-for="Price" class="form-control" />
+    <span asp-validation-for="Price" class="text-danger"></span>
+  </div>
+  @* Description *@
+  <div class="form-group">
+    <label asp-for="Description"></label><span class="text-danger">*</span>
+    <input asp-for="Description" class="form-control" />
+    <span asp-validation-for="Description" class="text-danger"></span>
+  </div>
+  @* Submit *@
+  <div class="form-group">
+    <label asp-for="ImageUrl"></label><span class="text-danger">*</span>
+    <input asp-for="ImageUrl" class="form-control" />
+    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Create</button>
+  <a asp-controller="Table" class="btn btn-secondary">Back To Table View</a>
+</form>
