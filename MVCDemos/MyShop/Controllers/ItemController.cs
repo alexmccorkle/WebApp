@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MyShop.Models;
 using MyShop.ViewModels;
 
@@ -13,25 +14,24 @@ public class ItemController : Controller
     _itemDbContext = itemDbContext;
   }
 
-  public IActionResult Table()
+  public async Task<IActionResult> Table()
   {
-    List<Item> items = _itemDbContext.Items.ToList(); // This line retrieves all items from the database and stores them in a list
+    List<Item> items = await _itemDbContext.Items.ToListAsync(); // This line retrieves all items from the database and stores them in a list
     var itemsViewModel = new ItemsViewModel(items, "Table");
     return View(itemsViewModel);
   }
 
-  public IActionResult Grid()
+  public async Task<IActionResult> Grid()
   {
-    List<Item> items = _itemDbContext.Items.ToList();
+    List<Item> items = await _itemDbContext.Items.ToListAsync();
     var itemsViewModel = new ItemsViewModel(items, "Grid");
     return View(itemsViewModel);
   }
 
-  public IActionResult Details(int id)
+  public async Task<IActionResult> Details(int id)
   {
-    List<Item> items = _itemDbContext.Items.ToList();
-    var item = items.FirstOrDefault(i => i.ItemId == id);
-    // FirstOrDefault() is a LINQ method that returns the first element of a sequence that satisfies a condition or a default value if no such element is found.
+    var item = await _itemDbContext.Items.FirstOrDefaultAsync(i => i.ItemId == id);
+    // FirstOrDefault() = LINQ method that returns first element of sequence that satisfies condition or default value if no element found.
     if (item == null)
     {
       return NotFound();
@@ -48,25 +48,24 @@ public class ItemController : Controller
 
   [HttpPost] // POST
   // Creates a new item in the database and redirects to the Table view to show
-  public IActionResult Create(Item item)
+  public async Task<IActionResult> Create(Item item)
   {
     if (ModelState.IsValid) // Did it pass the validation rules?
     {
       _itemDbContext.Items.Add(item);
-      _itemDbContext.SaveChanges();
+      await _itemDbContext.SaveChangesAsync();
       return RedirectToAction(nameof(Table));
     }
     return View(item);
   }
 
 
-
   // UPDATE
 
   [HttpGet]
-  public IActionResult Update(int id)
+  public async Task<IActionResult> Update(int id)
   {
-    var item = _itemDbContext.Items.Find(id); // Find the item with the given id
+    var item = await _itemDbContext.Items.FindAsync(id); // Find the item with the given id
     if (item == null)
     {
       return NotFound();
@@ -74,12 +73,12 @@ public class ItemController : Controller
     return View(item);
   }
   [HttpPost]
-  public IActionResult Update(Item item)
+  public async Task<IActionResult> Update(Item item)
   {
     if (ModelState.IsValid)
     {
       _itemDbContext.Items.Update(item);
-      _itemDbContext.SaveChanges();
+      await _itemDbContext.SaveChangesAsync();
       return RedirectToAction(nameof(Table));
     }
     return View(item);
@@ -87,9 +86,9 @@ public class ItemController : Controller
 
   // DELETE
   [HttpGet]
-  public IActionResult Delete(int id)
+  public async Task<IActionResult> Delete(int id)
   {
-    var item = _itemDbContext.Items.Find(id); // Finds the item
+    var item = await _itemDbContext.Items.FindAsync(id); // Finds the item
     if (item == null)
     {
       return NotFound();
@@ -98,15 +97,15 @@ public class ItemController : Controller
   }
 
   [HttpPost]
-  public IActionResult DeleteConfirmed(int id)
+  public async Task<IActionResult> DeleteConfirmed(int id)
   {
-    var item = _itemDbContext.Items.Find(id); // Checks if the item exists
+    var item = await _itemDbContext.Items.FindAsync(id); // Checks if the item exists
     if (item == null)
     {
       return NotFound();
     }
     _itemDbContext.Items.Remove(item); // Removes item
-    _itemDbContext.SaveChanges(); // Saves changes
+    await _itemDbContext.SaveChangesAsync(); // Saves changes
     return RedirectToAction(nameof(Table)); // Redirects to the Table view
   }
 
