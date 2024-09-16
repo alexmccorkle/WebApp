@@ -6,5 +6,5 @@ public class Customer
   public string Name { get; set; } = string.Empty;
   public string Address { get; set; } = string.Empty;
   // navigation property:
-  public List<Order>? Orders { get; set; } // A customer can have many orders
+  public virtual List<Order>? Orders { get; set; } // A customer can have many orders
 }

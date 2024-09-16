@@ -7,10 +7,10 @@ public class Order
   public int CustomerId { get; set; }
 
   //Navigation property
-  public Customer Customer { get; set; } = default!; // An order belongs to a customer
+  public virtual Customer Customer { get; set; } = default!; // An order belongs to a customer
 
   //Navigation property
-  public List<OrderItem>? OrderItems { get; set; } // An order can have many order items
+  public virtual List<OrderItem>? OrderItems { get; set; } // An order can have many order items
 
   public decimal TotalPrice { get; set; }
 
