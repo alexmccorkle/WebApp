@@ -3,7 +3,7 @@ namespace MyShop.Models;
 public class Order
 {
   public int OrderId { get; set; }
-  public String Orderdate { get; set; } = string.Empty;
+  public String OrderDate { get; set; } = string.Empty;
   public int CustomerId { get; set; }
 
   //Navigation property
