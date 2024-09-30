@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
+using MyShop.Models;
 
-namespace MyShop.Models;
+
+namespace MyShop.DAL;
 
 // This class is used to connect to the database and to create the table
 

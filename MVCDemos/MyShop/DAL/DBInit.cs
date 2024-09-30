@@ -3,9 +3,9 @@
 
 
 using Microsoft.EntityFrameworkCore;
+using MyShop.Models;
 
-namespace MyShop.Models;
-
+namespace MyShop.DAL;
 public static class DBInit
 {
   public static void Seed(IApplicationBuilder app)

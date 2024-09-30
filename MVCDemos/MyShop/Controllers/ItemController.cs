@@ -1,36 +1,36 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using MyShop.Models;
+using MyShop.DAL;
 using MyShop.ViewModels;
 
 namespace MyShop.Controllers;
 
 public class ItemController : Controller
 {
-  private readonly ItemDbContext _itemDbContext; // This is a private field that holds a reference to the ItemDbContext object
+  private readonly IItemRepository _itemRepository; // This is a private field that holds a reference to the ItemDbContext object
 
-  public ItemController(ItemDbContext itemDbContext)
+  public ItemController(IItemRepository itemRepository)
   {
-    _itemDbContext = itemDbContext;
+    _itemRepository = itemRepository;
   }
 
   public async Task<IActionResult> Table()
   {
-    List<Item> items = await _itemDbContext.Items.ToListAsync(); // This line retrieves all items from the database and stores them in a list
+    var items = await _itemRepository.GetAll();
     var itemsViewModel = new ItemsViewModel(items, "Table");
     return View(itemsViewModel);
   }
 
   public async Task<IActionResult> Grid()
   {
-    List<Item> items = await _itemDbContext.Items.ToListAsync();
+    var items = await _itemRepository.GetAll();
     var itemsViewModel = new ItemsViewModel(items, "Grid");
     return View(itemsViewModel);
   }
 
   public async Task<IActionResult> Details(int id)
   {
-    var item = await _itemDbContext.Items.FirstOrDefaultAsync(i => i.ItemId == id);
+    var item = await _itemRepository.GetItemById(id);
     // FirstOrDefault() = LINQ method that returns first element of sequence that satisfies condition or default value if no element found.
     if (item == null)
     {
@@ -52,8 +52,7 @@ public class ItemController : Controller
   {
     if (ModelState.IsValid) // Did it pass the validation rules?
     {
-      _itemDbContext.Items.Add(item);
-      await _itemDbContext.SaveChangesAsync();
+      await _itemRepository.Create(item);
       return RedirectToAction(nameof(Table));
     }
     return View(item);
@@ -65,7 +64,7 @@ public class ItemController : Controller
   [HttpGet]
   public async Task<IActionResult> Update(int id)
   {
-    var item = await _itemDbContext.Items.FindAsync(id); // Find the item with the given id
+    var item = await _itemRepository.GetItemById(id);// Find the item with the given id
     if (item == null)
     {
       return NotFound();
@@ -77,8 +76,7 @@ public class ItemController : Controller
   {
     if (ModelState.IsValid)
     {
-      _itemDbContext.Items.Update(item);
-      await _itemDbContext.SaveChangesAsync();
+      await _itemRepository.Update(item);
       return RedirectToAction(nameof(Table));
     }
     return View(item);
@@ -88,7 +86,7 @@ public class ItemController : Controller
   [HttpGet]
   public async Task<IActionResult> Delete(int id)
   {
-    var item = await _itemDbContext.Items.FindAsync(id); // Finds the item
+    var item = await _itemRepository.GetItemById(id);// Finds the item
     if (item == null)
     {
       return NotFound();
@@ -99,13 +97,7 @@ public class ItemController : Controller
   [HttpPost]
   public async Task<IActionResult> DeleteConfirmed(int id)
   {
-    var item = await _itemDbContext.Items.FindAsync(id); // Checks if the item exists
-    if (item == null)
-    {
-      return NotFound();
-    }
-    _itemDbContext.Items.Remove(item); // Removes item
-    await _itemDbContext.SaveChangesAsync(); // Saves changes
+    await _itemRepository.Delete(id); // Saves changes
     return RedirectToAction(nameof(Table)); // Redirects to the Table view
   }
 
