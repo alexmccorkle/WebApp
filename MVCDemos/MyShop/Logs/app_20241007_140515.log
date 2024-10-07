@@ -1,0 +1,87 @@
+2024-10-07 14:05:16.277 +02:00 [INF] User profile is available. Using '/Users/alexmccorkle/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-07 14:05:16.545 +02:00 [INF] Now listening on: https://localhost:7119
+2024-10-07 14:05:16.689 +02:00 [INF] Now listening on: http://localhost:5041
+2024-10-07 14:05:16.698 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-07 14:05:16.707 +02:00 [INF] Hosting environment: Development
+2024-10-07 14:05:16.708 +02:00 [INF] Content root path: /Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop
+2024-10-07 14:05:17.739 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/ - null null
+2024-10-07 14:05:17.750 +02:00 [INF] Executing endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-10-07 14:05:17.755 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyShop.Controllers.HomeController (MyShop).
+2024-10-07 14:05:17.763 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-07 14:05:17.802 +02:00 [INF] Executed ViewResult - view Index executed in 38.5342ms.
+2024-10-07 14:05:17.803 +02:00 [INF] Executed action MyShop.Controllers.HomeController.Index (MyShop) in 47.1639ms
+2024-10-07 14:05:17.803 +02:00 [INF] Executed endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-10-07 14:05:17.804 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/ - 200 null text/html; charset=utf-8 65.7284ms
+2024-10-07 14:05:17.982 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/pizza.jpg - null null
+2024-10-07 14:05:17.982 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/tacos.jpg - null null
+2024-10-07 14:05:17.982 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/fishandchips.jpg - null null
+2024-10-07 14:05:18.003 +02:00 [INF] Sending file. Request path: '/images/tacos.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/tacos.jpg'
+2024-10-07 14:05:18.003 +02:00 [INF] Sending file. Request path: '/images/pizza.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/pizza.jpg'
+2024-10-07 14:05:18.003 +02:00 [INF] Sending file. Request path: '/images/fishandchips.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/fishandchips.jpg'
+2024-10-07 14:05:18.003 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/pizza.jpg - 499 127421 image/jpeg 20.7032ms
+2024-10-07 14:05:18.003 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/fishandchips.jpg - 499 100023 image/jpeg 20.7155ms
+2024-10-07 14:05:18.003 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/tacos.jpg - 499 118763 image/jpeg 20.5437ms
+2024-10-07 14:05:18.193 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/favicon.ico - null null
+2024-10-07 14:05:18.244 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/favicon.ico - 499 null null 50.8274ms
+2024-10-07 14:05:18.245 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/favicon.ico, Response status code: 499
+2024-10-07 14:05:20.694 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/Item/Table - null null
+2024-10-07 14:05:20.695 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Table (MyShop)'
+2024-10-07 14:05:20.701 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller MyShop.Controllers.ItemController (MyShop).
+2024-10-07 14:05:20.753 +02:00 [INF] Executing ViewResult, running view Table.
+2024-10-07 14:05:20.766 +02:00 [INF] Executed ViewResult - view Table executed in 13.5067ms.
+2024-10-07 14:05:20.768 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Table (MyShop) in 67.2731ms
+2024-10-07 14:05:20.769 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Table (MyShop)'
+2024-10-07 14:05:20.774 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/Item/Table - 200 null text/html; charset=utf-8 81.0043ms
+2024-10-07 14:05:20.806 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/chickenleg.jpg - null null
+2024-10-07 14:05:20.815 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/frenchfries.jpg - null null
+2024-10-07 14:05:20.815 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/ribs.jpg - null null
+2024-10-07 14:05:20.815 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/cider.jpg - null null
+2024-10-07 14:05:20.887 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/coke.jpg - null null
+2024-10-07 14:05:21.139 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/favicon.ico - null null
+2024-10-07 14:05:21.140 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/favicon.ico - 499 null null 0.7614ms
+2024-10-07 14:05:21.140 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/favicon.ico, Response status code: 499
+2024-10-07 14:05:21.143 +02:00 [INF] Sending file. Request path: '/images/chickenleg.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/chickenleg.jpg'
+2024-10-07 14:05:21.143 +02:00 [INF] Sending file. Request path: '/images/cider.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/cider.jpg'
+2024-10-07 14:05:21.143 +02:00 [INF] Sending file. Request path: '/images/ribs.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/ribs.jpg'
+2024-10-07 14:05:21.143 +02:00 [INF] Sending file. Request path: '/images/frenchfries.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/frenchfries.jpg'
+2024-10-07 14:05:21.143 +02:00 [INF] Sending file. Request path: '/images/coke.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/coke.jpg'
+2024-10-07 14:05:21.143 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/chickenleg.jpg - 200 63434 image/jpeg 336.828ms
+2024-10-07 14:05:21.143 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/coke.jpg - 200 40331 image/jpeg 255.7013ms
+2024-10-07 14:05:21.143 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/ribs.jpg - 200 141554 image/jpeg 327.4951ms
+2024-10-07 14:05:21.143 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/cider.jpg - 200 28236 image/jpeg 327.4951ms
+2024-10-07 14:05:21.143 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/frenchfries.jpg - 200 52799 image/jpeg 327.4998ms
+2024-10-07 14:05:22.855 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/Item/Update/1 - null null
+2024-10-07 14:05:22.862 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Update (MyShop)'
+2024-10-07 14:05:22.874 +02:00 [INF] Route matched with {action = "Update", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32) on controller MyShop.Controllers.ItemController (MyShop).
+2024-10-07 14:05:22.928 +02:00 [INF] Executing ViewResult, running view Update.
+2024-10-07 14:05:23.102 +02:00 [INF] Executed ViewResult - view Update executed in 174.2417ms.
+2024-10-07 14:05:23.127 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Update (MyShop) in 253.1082ms
+2024-10-07 14:05:23.127 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Update (MyShop)'
+2024-10-07 14:05:23.127 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/Item/Update/1 - 200 null text/html; charset=utf-8 296.4413ms
+2024-10-07 14:05:28.264 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7119/Item/Update/1 - application/x-www-form-urlencoded 359
+2024-10-07 14:05:28.287 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Update (MyShop)'
+2024-10-07 14:05:28.301 +02:00 [INF] Route matched with {action = "Update", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(MyShop.Models.Item) on controller MyShop.Controllers.ItemController (MyShop).
+2024-10-07 14:05:28.321 +02:00 [WRN] [ItemController] Item update failed {"ItemId":1,"Name":"Pizza","Price":0,"Description":"Delicious Italian dish with a thin crust topped with tomato sauce, cheese, and various toppings.","ImageUrl":"/images/pizza.jpg","OrderItems":null,"$type":"Item"}
+2024-10-07 14:05:28.323 +02:00 [INF] Executing ViewResult, running view Update.
+2024-10-07 14:05:28.402 +02:00 [INF] Executed ViewResult - view Update executed in 80.1477ms.
+2024-10-07 14:05:28.430 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Update (MyShop) in 128.2432ms
+2024-10-07 14:05:28.430 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Update (MyShop)'
+2024-10-07 14:05:28.431 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7119/Item/Update/1 - 200 null text/html; charset=utf-8 188.2578ms
+2024-10-07 14:05:37.849 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7119/Item/Update/1 - application/x-www-form-urlencoded 356
+2024-10-07 14:05:37.852 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Update (MyShop)'
+2024-10-07 14:05:37.854 +02:00 [INF] Route matched with {action = "Update", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(MyShop.Models.Item) on controller MyShop.Controllers.ItemController (MyShop).
+2024-10-07 14:05:37.864 +02:00 [WRN] [ItemController] Item update failed {"ItemId":1,"Name":"Pizza","Price":200,"Description":"Delicious Italian dish with a thin crust topped with tomato sauce, cheese, and various toppings.","ImageUrl":"/images/pizza.jpg","OrderItems":null,"$type":"Item"}
+2024-10-07 14:05:37.865 +02:00 [INF] Executing ViewResult, running view Update.
+2024-10-07 14:05:37.922 +02:00 [INF] Executed ViewResult - view Update executed in 57.027ms.
+2024-10-07 14:05:37.924 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Update (MyShop) in 70.4658ms
+2024-10-07 14:05:37.926 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Update (MyShop)'
+2024-10-07 14:05:37.927 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7119/Item/Update/1 - 200 null text/html; charset=utf-8 78.6638ms
+2024-10-07 14:05:42.922 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7119/Item/Update/1 - application/x-www-form-urlencoded 356
+2024-10-07 14:05:42.927 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Update (MyShop)'
+2024-10-07 14:05:42.929 +02:00 [INF] Route matched with {action = "Update", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(MyShop.Models.Item) on controller MyShop.Controllers.ItemController (MyShop).
+2024-10-07 14:05:42.937 +02:00 [WRN] [ItemController] Item update failed {"ItemId":1,"Name":"Pizza","Price":200,"Description":"Delicious Italian dish with a thin crust topped with tomato sauce, cheese, and various toppings.","ImageUrl":"/images/pizza.jpg","OrderItems":null,"$type":"Item"}
+2024-10-07 14:05:42.938 +02:00 [INF] Executing ViewResult, running view Update.
+2024-10-07 14:05:42.994 +02:00 [INF] Executed ViewResult - view Update executed in 56.6982ms.
+2024-10-07 14:05:42.996 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Update (MyShop) in 66.7792ms
+2024-10-07 14:05:42.996 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Update (MyShop)'
+2024-10-07 14:05:42.996 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7119/Item/Update/1 - 200 null text/html; charset=utf-8 74.6134ms

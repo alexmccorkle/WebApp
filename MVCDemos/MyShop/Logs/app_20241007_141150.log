@@ -1,0 +1,48 @@
+2024-10-07 14:11:51.026 +02:00 [INF] User profile is available. Using '/Users/alexmccorkle/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-07 14:11:51.260 +02:00 [INF] Now listening on: https://localhost:7119
+2024-10-07 14:11:51.260 +02:00 [INF] Now listening on: http://localhost:5041
+2024-10-07 14:11:51.263 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-07 14:11:51.264 +02:00 [INF] Hosting environment: Development
+2024-10-07 14:11:51.264 +02:00 [INF] Content root path: /Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop
+2024-10-07 14:11:51.778 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/ - null null
+2024-10-07 14:11:51.791 +02:00 [INF] Executing endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-10-07 14:11:51.796 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyShop.Controllers.HomeController (MyShop).
+2024-10-07 14:11:51.800 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-07 14:11:51.838 +02:00 [INF] Executed ViewResult - view Index executed in 36.3733ms.
+2024-10-07 14:11:51.840 +02:00 [INF] Executed action MyShop.Controllers.HomeController.Index (MyShop) in 43.2059ms
+2024-10-07 14:11:51.840 +02:00 [INF] Executed endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-10-07 14:11:51.842 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/ - 200 null text/html; charset=utf-8 64.9886ms
+2024-10-07 14:11:51.919 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/fishandchips.jpg - null null
+2024-10-07 14:11:51.921 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/pizza.jpg - null null
+2024-10-07 14:11:51.921 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/tacos.jpg - null null
+2024-10-07 14:11:51.934 +02:00 [INF] Sending file. Request path: '/images/pizza.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/pizza.jpg'
+2024-10-07 14:11:51.934 +02:00 [INF] Sending file. Request path: '/images/fishandchips.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/fishandchips.jpg'
+2024-10-07 14:11:51.934 +02:00 [INF] Sending file. Request path: '/images/tacos.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/tacos.jpg'
+2024-10-07 14:11:51.934 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/pizza.jpg - 499 127421 image/jpeg 12.8907ms
+2024-10-07 14:11:51.934 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/fishandchips.jpg - 499 100023 image/jpeg 14.5739ms
+2024-10-07 14:11:51.934 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/tacos.jpg - 499 118763 image/jpeg 13.4558ms
+2024-10-07 14:11:52.041 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/favicon.ico - null null
+2024-10-07 14:11:52.043 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/favicon.ico - 499 null null 1.6518ms
+2024-10-07 14:11:52.043 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/favicon.ico, Response status code: 499
+2024-10-07 14:11:54.293 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/Item/Table - null null
+2024-10-07 14:11:54.297 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Table (MyShop)'
+2024-10-07 14:11:54.316 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller MyShop.Controllers.ItemController (MyShop).
+2024-10-07 14:11:54.363 +02:00 [INF] Executing ViewResult, running view Table.
+2024-10-07 14:11:54.374 +02:00 [INF] Executed ViewResult - view Table executed in 12.0188ms.
+2024-10-07 14:11:54.375 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Table (MyShop) in 58.2691ms
+2024-10-07 14:11:54.375 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Table (MyShop)'
+2024-10-07 14:11:54.377 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/Item/Table - 200 null text/html; charset=utf-8 110.8879ms
+2024-10-07 14:11:54.429 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/favicon.ico - null null
+2024-10-07 14:11:54.457 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/favicon.ico - 499 null null 27.4816ms
+2024-10-07 14:11:54.457 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/favicon.ico, Response status code: 499
+2024-10-07 14:11:56.719 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/Item/Create - null null
+2024-10-07 14:11:56.721 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Create (MyShop)'
+2024-10-07 14:11:56.723 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller MyShop.Controllers.ItemController (MyShop).
+2024-10-07 14:11:56.726 +02:00 [INF] Executing ViewResult, running view Create.
+2024-10-07 14:11:56.801 +02:00 [INF] Executed ViewResult - view Create executed in 75.9483ms.
+2024-10-07 14:11:56.804 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Create (MyShop) in 80.3273ms
+2024-10-07 14:11:56.828 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Create (MyShop)'
+2024-10-07 14:11:56.852 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/Item/Create - 200 null text/html; charset=utf-8 133.8847ms
+2024-10-07 14:12:03.151 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7119/Item/Create - application/x-www-form-urlencoded 218
+2024-10-07 14:12:03.224 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Create (MyShop)'
+2024-10-07 14:12:03.251 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(MyShop.Models.Item) on controller MyShop.Controllers.ItemController (MyShop).

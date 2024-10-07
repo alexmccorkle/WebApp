@@ -1,0 +1,254 @@
+2024-10-07 14:44:54.846 +02:00 [INF] User profile is available. Using '/Users/alexmccorkle/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-07 14:44:55.167 +02:00 [INF] Now listening on: https://localhost:7119
+2024-10-07 14:44:55.193 +02:00 [INF] Now listening on: http://localhost:5041
+2024-10-07 14:44:55.219 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-07 14:44:55.268 +02:00 [INF] Hosting environment: Development
+2024-10-07 14:44:55.279 +02:00 [INF] Content root path: /Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop
+2024-10-07 14:44:56.374 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/ - null null
+2024-10-07 14:44:57.070 +02:00 [INF] Executing endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-10-07 14:44:57.085 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyShop.Controllers.HomeController (MyShop).
+2024-10-07 14:44:57.089 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-07 14:44:57.194 +02:00 [INF] Executed ViewResult - view Index executed in 103.8871ms.
+2024-10-07 14:44:57.198 +02:00 [INF] Executed action MyShop.Controllers.HomeController.Index (MyShop) in 112.6606ms
+2024-10-07 14:44:57.296 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - null null
+2024-10-07 14:44:57.296 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - null null
+2024-10-07 14:44:57.297 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:44:57.297 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:44:57.299 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/pizza.jpg - null null
+2024-10-07 14:44:57.322 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/fishandchips.jpg - null null
+2024-10-07 14:44:57.323 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/tacos.jpg - null null
+2024-10-07 14:44:57.380 +02:00 [INF] Executed endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-10-07 14:44:57.382 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 85.1835ms
+2024-10-07 14:44:57.382 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/ - 200 null text/html; charset=utf-8 1008.8212ms
+2024-10-07 14:44:57.382 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 85.1812ms
+2024-10-07 14:44:57.384 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:44:57.384 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:44:57.384 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - 404 0 null 88.6602ms
+2024-10-07 14:44:57.384 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-07 14:44:57.385 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - 404 0 null 89.0292ms
+2024-10-07 14:44:57.385 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/bootstap/js/bootstrap.js, Response status code: 404
+2024-10-07 14:44:57.393 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - null null
+2024-10-07 14:44:57.394 +02:00 [INF] Sending file. Request path: '/images/fishandchips.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/fishandchips.jpg'
+2024-10-07 14:44:57.394 +02:00 [INF] Sending file. Request path: '/images/pizza.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/pizza.jpg'
+2024-10-07 14:44:57.394 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/pizza.jpg - 499 127421 image/jpeg 95.7605ms
+2024-10-07 14:44:57.394 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/fishandchips.jpg - 499 100023 image/jpeg 71.904ms
+2024-10-07 14:44:57.394 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - 404 0 null 1.0385ms
+2024-10-07 14:44:57.395 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-07 14:44:57.396 +02:00 [INF] Sending file. Request path: '/images/tacos.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/tacos.jpg'
+2024-10-07 14:44:57.398 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:44:57.398 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/tacos.jpg - 499 118763 image/jpeg 75.53ms
+2024-10-07 14:44:57.399 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 0.6987ms
+2024-10-07 14:44:57.399 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:44:57.401 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:44:57.401 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 0.2683ms
+2024-10-07 14:44:57.401 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:44:57.462 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/favicon.ico - null null
+2024-10-07 14:44:57.463 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/favicon.ico - 499 null null 0.4857ms
+2024-10-07 14:44:57.463 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/favicon.ico, Response status code: 499
+2024-10-07 14:44:58.963 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/Item/Table - null null
+2024-10-07 14:44:58.970 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Table (MyShop)'
+2024-10-07 14:44:58.975 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller MyShop.Controllers.ItemController (MyShop).
+2024-10-07 14:44:59.030 +02:00 [INF] Executing ViewResult, running view Table.
+2024-10-07 14:44:59.043 +02:00 [INF] Executed ViewResult - view Table executed in 13.2786ms.
+2024-10-07 14:44:59.043 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Table (MyShop) in 67.9755ms
+2024-10-07 14:44:59.043 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Table (MyShop)'
+2024-10-07 14:44:59.046 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/Item/Table - 200 null text/html; charset=utf-8 82.6338ms
+2024-10-07 14:44:59.084 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - null null
+2024-10-07 14:44:59.084 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - null null
+2024-10-07 14:44:59.107 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:44:59.107 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:44:59.108 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 0.4587ms
+2024-10-07 14:44:59.108 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 0.5817ms
+2024-10-07 14:44:59.108 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:44:59.108 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/frenchfries.jpg - null null
+2024-10-07 14:44:59.108 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/ribs.jpg - null null
+2024-10-07 14:44:59.108 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - 404 0 null 23.556ms
+2024-10-07 14:44:59.108 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:44:59.108 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/cider.jpg - null null
+2024-10-07 14:44:59.108 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/coke.jpg - null null
+2024-10-07 14:44:59.108 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - 404 0 null 23.6877ms
+2024-10-07 14:44:59.178 +02:00 [INF] Sending file. Request path: '/images/ribs.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/ribs.jpg'
+2024-10-07 14:44:59.178 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - null null
+2024-10-07 14:44:59.178 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/ribs.jpg - 499 141554 image/jpeg 70.312ms
+2024-10-07 14:44:59.108 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/images/chickenleg.jpg - null null
+2024-10-07 14:44:59.178 +02:00 [INF] Sending file. Request path: '/images/coke.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/coke.jpg'
+2024-10-07 14:44:59.178 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/bootstap/js/bootstrap.js, Response status code: 404
+2024-10-07 14:44:59.179 +02:00 [INF] Sending file. Request path: '/images/cider.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/cider.jpg'
+2024-10-07 14:44:59.179 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/coke.jpg - 499 40331 image/jpeg 70.5007ms
+2024-10-07 14:44:59.134 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-07 14:44:59.179 +02:00 [INF] Sending file. Request path: '/images/frenchfries.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/frenchfries.jpg'
+2024-10-07 14:44:59.178 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - 404 0 null 0.1162ms
+2024-10-07 14:44:59.179 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/cider.jpg - 499 28236 image/jpeg 70.6196ms
+2024-10-07 14:44:59.179 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/frenchfries.jpg - 499 52799 image/jpeg 70.814ms
+2024-10-07 14:44:59.179 +02:00 [INF] Sending file. Request path: '/images/chickenleg.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/chickenleg.jpg'
+2024-10-07 14:44:59.179 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-07 14:44:59.179 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/images/chickenleg.jpg - 499 63434 image/jpeg 70.9677ms
+2024-10-07 14:44:59.181 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:44:59.181 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 0.0844ms
+2024-10-07 14:44:59.181 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:44:59.204 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:44:59.252 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 48.1227ms
+2024-10-07 14:44:59.252 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:45:00.554 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/Item/Grid - null null
+2024-10-07 14:45:00.558 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Grid (MyShop)'
+2024-10-07 14:45:00.565 +02:00 [INF] Route matched with {action = "Grid", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller MyShop.Controllers.ItemController (MyShop).
+2024-10-07 14:45:00.604 +02:00 [INF] Executing ViewResult, running view Grid.
+2024-10-07 14:45:00.610 +02:00 [INF] Executed ViewResult - view Grid executed in 6.8689ms.
+2024-10-07 14:45:00.616 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Grid (MyShop) in 50.6907ms
+2024-10-07 14:45:00.616 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Grid (MyShop)'
+2024-10-07 14:45:00.617 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/Item/Grid - 200 null text/html; charset=utf-8 63.119ms
+2024-10-07 14:45:00.637 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - null null
+2024-10-07 14:45:00.637 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - null null
+2024-10-07 14:45:00.637 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:45:00.637 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:45:00.686 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 49.1118ms
+2024-10-07 14:45:00.686 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - 404 0 null 49.2168ms
+2024-10-07 14:45:00.686 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:45:00.686 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/bootstap/js/bootstrap.js, Response status code: 404
+2024-10-07 14:45:00.686 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - 404 0 null 49.2265ms
+2024-10-07 14:45:00.686 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 49.1173ms
+2024-10-07 14:45:00.687 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-07 14:45:00.687 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:45:00.691 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:45:00.692 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 0.2815ms
+2024-10-07 14:45:00.692 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:45:00.714 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:45:00.714 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 0.318ms
+2024-10-07 14:45:00.714 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:45:02.293 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/Item/Details/1 - null null
+2024-10-07 14:45:02.293 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Details (MyShop)'
+2024-10-07 14:45:02.308 +02:00 [INF] Route matched with {action = "Details", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Details(Int32) on controller MyShop.Controllers.ItemController (MyShop).
+2024-10-07 14:45:02.346 +02:00 [INF] Executing ViewResult, running view Details.
+2024-10-07 14:45:02.347 +02:00 [INF] Executed ViewResult - view Details executed in 2.6389ms.
+2024-10-07 14:45:02.347 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Details (MyShop) in 39.4457ms
+2024-10-07 14:45:02.347 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Details (MyShop)'
+2024-10-07 14:45:02.348 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/Item/Details/1 - 200 null text/html; charset=utf-8 54.676ms
+2024-10-07 14:45:02.376 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - null null
+2024-10-07 14:45:02.400 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - null null
+2024-10-07 14:45:02.473 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:45:02.520 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:45:02.520 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 25.2449ms
+2024-10-07 14:45:02.520 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - 404 0 null 143.9426ms
+2024-10-07 14:45:02.520 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - 404 0 null 143.9725ms
+2024-10-07 14:45:02.521 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-07 14:45:02.520 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:45:02.520 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/bootstap/js/bootstrap.js, Response status code: 404
+2024-10-07 14:45:02.520 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 72.9702ms
+2024-10-07 14:45:02.521 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:45:02.550 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:45:02.550 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 25.6761ms
+2024-10-07 14:45:02.550 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:45:02.603 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:45:02.603 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 25.3192ms
+2024-10-07 14:45:02.603 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:45:03.999 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/Item/Grid - null null
+2024-10-07 14:45:04.002 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Grid (MyShop)'
+2024-10-07 14:45:04.012 +02:00 [INF] Route matched with {action = "Grid", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Grid() on controller MyShop.Controllers.ItemController (MyShop).
+2024-10-07 14:45:04.033 +02:00 [INF] Executing ViewResult, running view Grid.
+2024-10-07 14:45:04.254 +02:00 [INF] Executed ViewResult - view Grid executed in 202.013ms.
+2024-10-07 14:45:04.296 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Grid (MyShop) in 284.5062ms
+2024-10-07 14:45:04.297 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Grid (MyShop)'
+2024-10-07 14:45:04.304 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/Item/Grid - 200 null text/html; charset=utf-8 345.5497ms
+2024-10-07 14:45:04.305 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:45:04.305 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - null null
+2024-10-07 14:45:04.305 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - null null
+2024-10-07 14:45:04.306 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:45:04.353 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 46.843ms
+2024-10-07 14:45:04.353 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 47.5676ms
+2024-10-07 14:45:04.353 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - 404 0 null 47.5398ms
+2024-10-07 14:45:04.353 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - 404 0 null 47.3777ms
+2024-10-07 14:45:04.353 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-07 14:45:04.353 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:45:04.353 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:45:04.353 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/bootstap/js/bootstrap.js, Response status code: 404
+2024-10-07 14:45:04.356 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:45:04.356 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 0.1813ms
+2024-10-07 14:45:04.356 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:45:04.358 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:45:04.358 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 0.2099ms
+2024-10-07 14:45:04.358 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:45:08.404 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/Item/Table - null null
+2024-10-07 14:45:08.405 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Table (MyShop)'
+2024-10-07 14:45:08.406 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller MyShop.Controllers.ItemController (MyShop).
+2024-10-07 14:45:08.412 +02:00 [INF] Executing ViewResult, running view Table.
+2024-10-07 14:45:08.556 +02:00 [INF] Executed ViewResult - view Table executed in 98.95ms.
+2024-10-07 14:45:08.670 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Table (MyShop) in 264.3739ms
+2024-10-07 14:45:08.693 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Table (MyShop)'
+2024-10-07 14:45:08.693 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - null null
+2024-10-07 14:45:08.693 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - null null
+2024-10-07 14:45:08.717 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:45:08.742 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 24.9583ms
+2024-10-07 14:45:08.742 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/Item/Table - 200 null text/html; charset=utf-8 381.279ms
+2024-10-07 14:45:08.742 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:45:08.742 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - 404 0 null 49.1903ms
+2024-10-07 14:45:08.743 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - 404 0 null 49.6942ms
+2024-10-07 14:45:08.743 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-07 14:45:08.693 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:45:08.743 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/bootstap/js/bootstrap.js, Response status code: 404
+2024-10-07 14:45:08.743 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 49.8164ms
+2024-10-07 14:45:08.743 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:45:08.748 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - null null
+2024-10-07 14:45:08.748 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - 404 0 null 0.3908ms
+2024-10-07 14:45:08.748 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-07 14:45:08.750 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:45:08.751 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 0.3327ms
+2024-10-07 14:45:08.751 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:45:08.753 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:45:08.778 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 25.3781ms
+2024-10-07 14:45:08.778 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:45:09.874 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/Item/Create - null null
+2024-10-07 14:45:09.898 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Create (MyShop)'
+2024-10-07 14:45:09.902 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller MyShop.Controllers.ItemController (MyShop).
+2024-10-07 14:45:09.905 +02:00 [INF] Executing ViewResult, running view Create.
+2024-10-07 14:45:10.002 +02:00 [INF] Executed ViewResult - view Create executed in 97.8841ms.
+2024-10-07 14:45:10.002 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Create (MyShop) in 99.1456ms
+2024-10-07 14:45:10.002 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Create (MyShop)'
+2024-10-07 14:45:10.002 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/Item/Create - 200 null text/html; charset=utf-8 127.6065ms
+2024-10-07 14:45:10.028 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - null null
+2024-10-07 14:45:10.028 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:45:10.028 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - null null
+2024-10-07 14:45:10.053 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - 404 0 null 25.7392ms
+2024-10-07 14:45:10.053 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/bootstap/js/bootstrap.js, Response status code: 404
+2024-10-07 14:45:10.053 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 25.7413ms
+2024-10-07 14:45:10.054 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - 404 0 null 26.1801ms
+2024-10-07 14:45:10.054 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:45:10.054 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-07 14:45:10.054 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:45:10.054 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 0.5318ms
+2024-10-07 14:45:10.054 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:45:10.056 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:45:10.080 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 24.0386ms
+2024-10-07 14:45:10.080 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:45:10.082 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:45:10.083 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 0.2197ms
+2024-10-07 14:45:10.083 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:45:11.562 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7119/Item/Create - application/x-www-form-urlencoded 218
+2024-10-07 14:45:11.610 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Create (MyShop)'
+2024-10-07 14:45:11.623 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(MyShop.Models.Item) on controller MyShop.Controllers.ItemController (MyShop).
+2024-10-07 14:45:11.671 +02:00 [WRN] [ItemController] Item creation failed {"ItemId":0,"Name":null,"Price":0,"Description":null,"ImageUrl":null,"OrderItems":null,"$type":"Item"}
+2024-10-07 14:45:11.674 +02:00 [INF] Executing ViewResult, running view Create.
+2024-10-07 14:45:11.750 +02:00 [INF] Executed ViewResult - view Create executed in 75.5191ms.
+2024-10-07 14:45:11.750 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - null null
+2024-10-07 14:45:11.750 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:45:11.750 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 0.1252ms
+2024-10-07 14:45:11.750 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:45:11.750 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:45:11.750 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Create (MyShop) in 126.7583ms
+2024-10-07 14:45:11.750 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Create (MyShop)'
+2024-10-07 14:45:11.750 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - 404 0 null 0.3059ms
+2024-10-07 14:45:11.750 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - null null
+2024-10-07 14:45:11.750 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 0.0432ms
+2024-10-07 14:45:11.776 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-07 14:45:11.848 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-07 14:45:11.848 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7119/Item/Create - 200 null text/html; charset=utf-8 285.7052ms
+2024-10-07 14:45:11.848 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/bootstap/js/bootstrap.js - 404 0 null 98.2327ms
+2024-10-07 14:45:11.874 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/bootstap/js/bootstrap.js, Response status code: 404
+2024-10-07 14:45:11.874 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - null null
+2024-10-07 14:45:11.899 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery/jquery.min.js - 404 0 null 25.4412ms
+2024-10-07 14:45:11.899 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-07 14:45:11.928 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-07 14:45:11.950 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validate/jquery.validate.js> - 404 0 null 22.8294ms
+2024-10-07 14:45:11.950 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-07 14:45:11.954 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-07 14:45:11.954 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 0.3017ms
+2024-10-07 14:45:11.954 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7119/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404

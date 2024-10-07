@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KlYz0TuhIfsLE/3yyO5jcPPRT43AN3AIvFAaY5GVK9Q=",
+  "Hash": "j7CcjGUKCLb4V2TSPsomNrsIn57vivHTNheW1jc2Pdk=",
   "Source": "MyShop",
   "BasePath": "_content/MyShop",
   "Mode": "Default",
@@ -243,6 +243,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/jquery.min.js"
+    },
+    {
+      "Identity": "/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/js/jquery.validate.js",
+      "SourceId": "MyShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/",
+      "BasePath": "_content/MyShop",
+      "RelativePath": "js/jquery.validate.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/jquery.validate.js"
+    },
+    {
+      "Identity": "/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/js/jquery.validate.unobtrusive.js",
+      "SourceId": "MyShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/",
+      "BasePath": "_content/MyShop",
+      "RelativePath": "js/jquery.validate.unobtrusive.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/jquery.validate.unobtrusive.js"
     }
   ]
 }

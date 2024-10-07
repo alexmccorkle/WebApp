@@ -4,6 +4,7 @@
 
 <form asp-action="Create">
   @* Name *@
+  <div asp-validation-summary="All" class="text-danger"></div>
   <div class="form-group">
     <label asp-for="Name"></label><span class="text-danger">*</span>
     <input asp-for="Name" class="form-control" />
@@ -23,7 +24,7 @@
   </div>
   @* Submit *@
   <div class="form-group">
-    <label asp-for="ImageUrl"></label><span class="text-danger">*</span>
+    <label asp-for="ImageUrl"></label><span class="text-danger"></span>
     <input asp-for="ImageUrl" class="form-control" />
     <span asp-validation-for="ImageUrl" class="text-danger"></span>
   </div>
