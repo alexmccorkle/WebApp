@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MyShop.Models;
 using MyShop.DAL;
@@ -54,12 +55,14 @@ public class ItemController : Controller
 
   // CREATE
   [HttpGet] // GET
+  [Authorize]
   public IActionResult Create()
   {
     return View();
   }
 
   [HttpPost] // POST
+  [Authorize]
   // Creates a new item in the database and redirects to the Table view to show
   public async Task<IActionResult> Create(Item item)
   {
@@ -77,6 +80,7 @@ public class ItemController : Controller
   // UPDATE
 
   [HttpGet]
+  [Authorize]
   public async Task<IActionResult> Update(int id)
   {
     var item = await _itemRepository.GetItemById(id);// Find the item with the given id
@@ -89,6 +93,7 @@ public class ItemController : Controller
   }
 
   [HttpPost]
+  [Authorize]
   public async Task<IActionResult> Update(Item item)
   {
     if (ModelState.IsValid)
@@ -103,6 +108,7 @@ public class ItemController : Controller
 
   // DELETE
   [HttpGet]
+  [Authorize]
   public async Task<IActionResult> Delete(int id)
   {
     var item = await _itemRepository.GetItemById(id);// Finds the item
@@ -115,6 +121,7 @@ public class ItemController : Controller
   }
 
   [HttpPost]
+  [Authorize]
   public async Task<IActionResult> DeleteConfirmed(int id)
   {
     bool returnOK = await _itemRepository.Delete(id); // Saves changes

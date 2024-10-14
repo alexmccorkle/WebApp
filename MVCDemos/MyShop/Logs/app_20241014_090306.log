@@ -1,0 +1,46 @@
+2024-10-14 09:03:08.189 +02:00 [INF] User profile is available. Using '/Users/alexmccorkle/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-14 09:03:08.254 +02:00 [INF] Now listening on: http://localhost:5041
+2024-10-14 09:03:08.261 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-14 09:03:08.262 +02:00 [INF] Hosting environment: Development
+2024-10-14 09:03:08.262 +02:00 [INF] Content root path: /Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop
+2024-10-14 09:03:09.205 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/ - null null
+2024-10-14 09:03:09.236 +02:00 [INF] Executing endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-10-14 09:03:09.245 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyShop.Controllers.HomeController (MyShop).
+2024-10-14 09:03:09.257 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-14 09:03:09.360 +02:00 [INF] Executed ViewResult - view Index executed in 109.0644ms.
+2024-10-14 09:03:09.461 +02:00 [INF] Executed action MyShop.Controllers.HomeController.Index (MyShop) in 214.4874ms
+2024-10-14 09:03:09.461 +02:00 [INF] Executed endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-10-14 09:03:09.471 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/lib/bootstap/js/bootstrap.js - null null
+2024-10-14 09:03:09.471 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/ - 200 null text/html; charset=utf-8 276.4445ms
+2024-10-14 09:03:09.484 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/lib/jquery/jquery.min.js - null null
+2024-10-14 09:03:09.489 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-14 09:03:09.489 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-14 09:03:09.519 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/lib/jquery-validate/jquery.validate.js> - 404 0 null 30.2944ms
+2024-10-14 09:03:09.551 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/lib/bootstap/js/bootstrap.js - 404 0 null 80.1651ms
+2024-10-14 09:03:09.551 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/lib/jquery/jquery.min.js - 404 0 null 67.2254ms
+2024-10-14 09:03:09.519 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 29.977ms
+2024-10-14 09:03:09.554 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-14 09:03:09.554 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-14 09:03:09.554 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-14 09:03:09.554 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/lib/bootstap/js/bootstrap.js, Response status code: 404
+2024-10-14 09:03:09.559 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/images/fishandchips.jpg - null null
+2024-10-14 09:03:09.559 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/images/tacos.jpg - null null
+2024-10-14 09:03:09.559 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/images/pizza.jpg - null null
+2024-10-14 09:03:09.561 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/lib/jquery/jquery.min.js - null null
+2024-10-14 09:03:09.561 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/lib/jquery/jquery.min.js - 404 0 null 0.1202ms
+2024-10-14 09:03:09.561 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-14 09:03:09.563 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-14 09:03:09.563 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/lib/jquery-validate/jquery.validate.js> - 404 0 null 0.4936ms
+2024-10-14 09:03:09.563 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-14 09:03:09.564 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-14 09:03:09.565 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 0.0967ms
+2024-10-14 09:03:09.585 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-14 09:03:09.735 +02:00 [INF] Sending file. Request path: '/images/pizza.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/pizza.jpg'
+2024-10-14 09:03:09.735 +02:00 [INF] Sending file. Request path: '/images/fishandchips.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/fishandchips.jpg'
+2024-10-14 09:03:09.735 +02:00 [INF] Sending file. Request path: '/images/tacos.jpg'. Physical path: '/Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop/wwwroot/images/tacos.jpg'
+2024-10-14 09:03:09.736 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/images/pizza.jpg - 200 127421 image/jpeg 176.4543ms
+2024-10-14 09:03:09.736 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/images/fishandchips.jpg - 200 100023 image/jpeg 176.6243ms
+2024-10-14 09:03:09.736 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/images/tacos.jpg - 200 118763 image/jpeg 176.5484ms
+2024-10-14 09:03:09.736 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/favicon.ico - null null
+2024-10-14 09:03:09.736 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/favicon.ico - 404 0 null 0.1765ms
+2024-10-14 09:03:09.736 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/favicon.ico, Response status code: 404

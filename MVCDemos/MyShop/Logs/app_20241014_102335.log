@@ -1,0 +1,61 @@
+2024-10-14 10:23:36.865 +02:00 [INF] User profile is available. Using '/Users/alexmccorkle/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-10-14 10:23:36.969 +02:00 [INF] Now listening on: http://localhost:5041
+2024-10-14 10:23:36.974 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-14 10:23:36.975 +02:00 [INF] Hosting environment: Development
+2024-10-14 10:23:36.976 +02:00 [INF] Content root path: /Users/alexmccorkle/Documents/IT/Year_3/WebApp/MVCDemos/MyShop
+2024-10-14 10:23:37.442 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/ - null null
+2024-10-14 10:23:37.471 +02:00 [INF] Executing endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-10-14 10:23:37.477 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyShop.Controllers.HomeController (MyShop).
+2024-10-14 10:23:37.480 +02:00 [INF] Executing ViewResult, running view Index.
+2024-10-14 10:23:37.532 +02:00 [INF] Executed ViewResult - view Index executed in 52.783ms.
+2024-10-14 10:23:37.534 +02:00 [INF] Executed action MyShop.Controllers.HomeController.Index (MyShop) in 56.7491ms
+2024-10-14 10:23:37.534 +02:00 [INF] Executed endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-10-14 10:23:37.537 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/ - 200 null text/html; charset=utf-8 98.0718ms
+2024-10-14 10:23:37.623 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/lib/bootstap/js/bootstrap.js - null null
+2024-10-14 10:23:37.623 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-14 10:23:37.624 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/lib/jquery/jquery.min.js - null null
+2024-10-14 10:23:37.626 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-14 10:23:37.632 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 5.6863ms
+2024-10-14 10:23:37.633 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/lib/jquery/jquery.min.js - 404 0 null 8.3892ms
+2024-10-14 10:23:37.633 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/lib/jquery-validate/jquery.validate.js> - 404 0 null 9.7ms
+2024-10-14 10:23:37.634 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-14 10:23:37.634 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/lib/bootstap/js/bootstrap.js - 404 0 null 11.5991ms
+2024-10-14 10:23:37.634 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/lib/bootstap/js/bootstrap.js, Response status code: 404
+2024-10-14 10:23:37.660 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-14 10:23:37.660 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-14 10:23:37.709 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/lib/jquery/jquery.min.js - null null
+2024-10-14 10:23:37.710 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/lib/jquery/jquery.min.js - 404 0 null 1.868ms
+2024-10-14 10:23:37.711 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/lib/jquery/jquery.min.js, Response status code: 404
+2024-10-14 10:23:37.715 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/lib/jquery-validate/jquery.validate.js> - null null
+2024-10-14 10:23:37.716 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/lib/jquery-validate/jquery.validate.js> - 404 0 null 1.3407ms
+2024-10-14 10:23:37.717 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/lib/jquery-validate/jquery.validate.js%3E, Response status code: 404
+2024-10-14 10:23:37.722 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - null null
+2024-10-14 10:23:37.723 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js> - 404 0 null 0.8062ms
+2024-10-14 10:23:37.723 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5041/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js%3E, Response status code: 404
+2024-10-14 10:23:39.607 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5041/Identity/Account/Register - null null
+2024-10-14 10:23:39.643 +02:00 [INF] Executing endpoint '/Account/Register'
+2024-10-14 10:23:39.658 +02:00 [INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register
+2024-10-14 10:23:39.663 +02:00 [INF] Executed page /Account/Register in 5.0344ms
+2024-10-14 10:23:39.664 +02:00 [INF] Executed endpoint '/Account/Register'
+2024-10-14 10:23:39.692 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UI.Services.IEmailSender' while attempting to activate 'MyShop.Areas.Identity.Pages.Account.RegisterModel'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method320(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-14 10:23:39.701 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5041/Identity/Account/Register - 500 null text/html; charset=utf-8 94.7933ms

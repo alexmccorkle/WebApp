@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using MyShop.Models;
 
 
@@ -6,7 +7,7 @@ namespace MyShop.DAL;
 
 // This class is used to connect to the database and to create the table
 
-public class ItemDbContext : DbContext
+public class ItemDbContext : IdentityDbContext
 {
   public ItemDbContext(DbContextOptions<ItemDbContext> options) : base(options)
   {
